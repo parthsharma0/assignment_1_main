@@ -22,8 +22,6 @@ class TestOperations(unittest.TestCase):
         self.assertEqual(divide(10, 2), 5)
         self.assertEqual(divide(-6, -3), 2)
         self.assertEqual(divide(7, 2), 3.5)
-        
-        
 
-if __name__ == '_main_':
+if __name__ == '__main__':
     unittest.main()
