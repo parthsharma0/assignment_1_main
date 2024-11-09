@@ -1,5 +1,9 @@
 import unittest
+import sys
+sys.path.append('C:/Users/User/OneDrive/Desktop/Assignments/Assignment1_main')
+
 from calculator.operations import add, subtract, multiply, divide
+
 
 class TestOperations(unittest.TestCase):
 
